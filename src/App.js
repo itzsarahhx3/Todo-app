@@ -81,9 +81,9 @@ function App() {
             </form>
 
             <ul>
-                {todos.map((todo) => (
-                    <Todo todo={todo} />
-                ))}
+                    {todos.map((todo) => (
+                        <Todo todo={todo} />
+                    ))}
             </ul>
         </div>
     );
